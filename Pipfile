@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+altair = "==4.2.0"
+numpy = "==1.22.4"
+pandas = "==1.4.2"
+pydeck = "==0.7.1"
+streamlit = {file = "streamlit-1.9.0-py2.py3-none-any.whl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
